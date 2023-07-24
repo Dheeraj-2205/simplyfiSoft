@@ -1,0 +1,25 @@
+{
+  "name": "triveous",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dheeraj-2205/Triveous.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dheeraj-2205/Triveous/issues"
+  },
+  "homepage": "https://github.com/Dheeraj-2205/Triveous#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1"
+  },
+  "type": "commonjs"
+}
