@@ -18,9 +18,10 @@ const postSchema = new mongoose.Schema({
         default: true
     },
     category: { 
-        type: mongoose.Schema.Types.ObjectId,
+        type: String,
         ref: 'Category'
     },
+    
   });
-
+// console.log(mongoose.Schema.Types.ObjectId);
 module.exports = mongoose.model("Post", postSchema);
