@@ -12,10 +12,6 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dheeraj-2205/Triveous/issues"
-  },
-  "homepage": "https://github.com/Dheeraj-2205/Triveous#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "dotenv": "^16.3.1",
