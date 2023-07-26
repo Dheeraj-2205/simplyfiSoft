@@ -10,10 +10,8 @@ app.use(express.urlencoded({extended: true}))
 
 const product = require("./routes/post");
 const user = require ("./routes/user");
-const cart = require("./routes/cart");
 
 app.use("/ecommerce/api", user)
 app.use("/ecommerce/api",product)
-app.use("/ecommerce/api",cart)
 
 module.exports = app;
